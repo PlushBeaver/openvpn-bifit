@@ -1,0 +1,4 @@
+deb http://archive.ubuntu.com/ubuntu/ xenial main
+deb http://archive.ubuntu.com/ubuntu/ xenial-updates main
+deb http://archive.ubuntu.com/ubuntu/ xenial-backports main
+deb http://security.ubuntu.com/ubuntu/ xenial-security main
