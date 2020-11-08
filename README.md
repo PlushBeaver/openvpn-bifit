@@ -14,3 +14,5 @@ pkcs11-providers '/opt/aktivco/rutokenecp/x86_64/librtpkcs11ecp.so'
 
 Библиотека в директории `opt` взята с сайта Рутокена:
 https://www.rutoken.ru/support/download/pkcs/
+
+Лицензия GPL из-за `update-systemd-resolved`.
