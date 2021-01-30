@@ -2,7 +2,8 @@
 
 Собрать образ: `./build.sh`
 
-В конфиге путь к библиотеке прописан так (устанавливать ничего не надо):
+В конфиге путь к библиотеке должен быть прописан так
+(устанавливать ничего не надо):
 
 ```
 pkcs11-providers '/opt/aktivco/rutokenecp/x86_64/librtpkcs11ecp.so'
@@ -29,4 +30,4 @@ dhcp-option domain-route ДОМЕН
 Библиотека в директории `opt` взята с сайта Рутокена:
 https://www.rutoken.ru/support/download/pkcs/
 
-Лицензия GPL из-за `update-systemd-resolved`.
+Образ включает `update-systemd-resolved` под лицензией GPLv3.
